@@ -4,6 +4,7 @@ $num1 = $_GET['num1'];
 $num2 = $_GET['num2'];
 
 $suma = $num1 + $num2;
+$resta = $num1 - $num2;
 $producto = $num1 * $num2;
 
 ?>
@@ -18,6 +19,7 @@ $producto = $num1 * $num2;
 <body>
     <h1>Resultados:</h1>
     <?php echo "<p>La suma de $num1 + $num2 = $suma</p>";
+            echo "<p>La resta de $num1 - $num2 = $resta</p>";
           echo "<p>El producto de $num1 * $num2 = $producto</p>";  
     ?>
 </body>
